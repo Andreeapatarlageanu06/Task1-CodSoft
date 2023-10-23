@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing page</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="logo.jpg" alt="Logo">
+      </a>
+      <button class="menu-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link">Features</a>
+          </li>
+        </ul>
+
+        <div class="header-actions">
+          <a href="#" class="header-action-link">Log in</a>
+
+          <a href="#" class="header-action-link">Register</a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+            <h1 class="h1 hero-title">StudyX Focus App</h1>
+
+            <p class="hero-text">Our app helps you focus and analizes your performance</p>
+
+            <p class="form-text">
+              <span></span>If you want more personalized features, subscribe to our newsletter!</p>
+
+            <form action="" class="hero-form">
+              <input type="email" name="email" required placeholder="Enter Your Email" class="email-field">
+
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+
+          <figure class="hero-banner">
+            <img src="study.png" alt="Student studying">
+          </figure>
+
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <div class="about-icon">
+              <ion-icon name="cube"></ion-icon>
+            </div>
+
+            <h2 class="h2 about-title">Why StudyX?</h2>
+
+            <p class="about-text">StudyX was created by students for students. The beginning questions are made to understand your learning schedule better, in order
+              to adapt the study session for you.</p>
+
+            <button class="btn btn-outline">Learn More</button>
+
+          </div>
+
+          <ul class="about-list">
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="thumbs-up"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Easy To Use</h3>
+
+                <p class="card-text">
+                  Just press the "Start" button and the app will help you be productive!
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="trending-up"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Grow your productivity</h3>
+
+                <p class="card-text">StudyX will put the background music suited for your productivity and will also announce you when to get a break.</p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Objectives</h3>
+
+                <p class="card-text">StudyX will track if you reached all your objectives and you will get a notification in case you forgot.</p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="server"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Data Privacy</h3>
+
+                <p class="card-text">Don't stress over your privacy! Your data is safe with us.</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
